@@ -111,7 +111,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@{user.gender}"
+                    android:text="@{user.job}"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
