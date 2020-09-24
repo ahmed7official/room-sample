@@ -53,7 +53,7 @@ class FirstActivity : AppCompatActivity() {
 
 
             viewModel.insert(user)
-            Toast.makeText(this, "User added successfully", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.msg_user_added, Toast.LENGTH_SHORT).show()
 
 
             inputName.setText("")
@@ -70,28 +70,25 @@ class FirstActivity : AppCompatActivity() {
     private fun validateInputs(): Boolean {
 
         if (inputName.text.isNullOrBlank()) {
-            Toast.makeText(this, "Name Required", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.req_name, Toast.LENGTH_SHORT).show()
             return false
         }
 
 
         if (inputAge.text.isNullOrBlank()) {
-            Toast.makeText(this, "Age Required", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.req_age, Toast.LENGTH_SHORT).show()
             return false
         }
-
 
 
         if (inputJobTitle.text.isNullOrBlank()) {
-            Toast.makeText(this, "Job Title Required", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.req_job, Toast.LENGTH_SHORT).show()
             return false
         }
 
 
-
-
         if (inputGender.text.isNullOrBlank()) {
-            Toast.makeText(this, "Gender Required", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.req_gender, Toast.LENGTH_SHORT).show()
             return false
         }
 

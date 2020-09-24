@@ -11,4 +11,9 @@
     <string name="add_new_user">Add New User</string>
 
     <string name="saved_users_n">Saved Users (%1$d)</string>
+    <string name="msg_user_added">User added successfully</string>
+    <string name="req_name">Name Required</string>
+    <string name="req_age">Age Required</string>
+    <string name="req_job">Job Title Required</string>
+    <string name="req_gender">Gender Required</string>
 </resources>
