@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Room Sample</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="job_title">Job title</string>
+    <string name="gender_male_female">Gender (Male/ Female)</string>
+    <string name="save">Save</string>
+    <string name="gender">Gender</string>
+    <string name="saved_users">Saved Users</string>
+    <string name="no_users">No users found</string>
+    <string name="add_new_user">Add New User</string>
+
+    <string name="saved_users_n">Saved Users (%1$d)</string>
+</resources>
